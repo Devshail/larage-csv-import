@@ -1,0 +1,19 @@
+{
+    "name": "shailendra/package",
+    "description": "simple package",
+    "type": "composer-plugin",
+    "require": {
+        "laravel/tinker": "^1.0",
+        "fzaninotto/faker": "^1.8"
+	},
+	"autoload": {
+        "psr-4": {"Shailendra\\Package\\": "src/"}
+    },
+    "license": "NIT",
+    "authors": [
+        {
+            "name": "Shailendra Gupta",
+            "email": "shailendrag1995@gmail.com"
+        }
+    ]
+}
